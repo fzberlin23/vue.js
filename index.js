@@ -73,3 +73,16 @@ var app7 = new Vue({
         ]
     }
 });
+
+var vm = new Vue({
+    el: '#demo',
+    data: {
+        firstName: 'Fabian',
+        lastName: 'Ziebig'
+    },
+    computed: {
+        fullName: function () {
+            return this.firstName + ' ' + this.lastName
+        }
+    }
+});
