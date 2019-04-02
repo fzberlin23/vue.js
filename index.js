@@ -146,3 +146,11 @@ new Vue({
     }
   }
 })
+
+
+new Vue({
+  el: '#example-4',
+  data: {
+    checkedNames: []
+  }
+})
